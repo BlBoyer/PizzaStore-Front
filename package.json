@@ -9,7 +9,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
+  },
+  "resolutions":{
+    "styled-components": "^5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,6 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy":"http://localhost:5059",
   "eslintConfig": {
     "extends": [
       "react-app",
